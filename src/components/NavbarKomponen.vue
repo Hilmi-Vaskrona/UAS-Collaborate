@@ -23,27 +23,27 @@
     </div>
 
     <!-- Navigasi kapsul tampil hanya jika bukan halaman login/register -->
-    <div class="relative max-w-[320px] mx-auto bottom-9 pointer-events-auto" v-if="url !== '/' && url !== 'register'">
+    <div class="relative max-w-[320px] mx-auto bottom-9 pointer-events-auto" v-if="props.url !== '/' && props.url !== 'register'">
       <!-- Bubble aktif -->
       <div
         class="absolute flex items-center gap-2 px-4 py-2 rounded-full bg-black/60 backdrop-blur-md text-white transition-all duration-300"
-        :style="{ left: `${activeIndex * 80}px` }"
+        :style="{ left: `${props.activeIndex * 80}px` }"
       >
-        <i :class="navItems[activeIndex].icon" class="text-sm"></i>
+        <i :class="props.navItems[props.activeIndex].icon" class="text-sm"></i>
         <span class="text-sm font-medium whitespace-nowrap">
-          {{ navItems[activeIndex].name }}
+          {{ props.navItems[props.activeIndex].name }}
         </span>
       </div>
       <!-- Daftar ikon -->
       <ul class="flex justify-between relative w-[320px]">
         <li
-          v-for="(item, index) in navItems"
+          v-for="(item, index) in props.navItems"
           :key="item.name"
           class="w-20 text-center cursor-pointer py-2"
           @click="gantiUrl(item.name)"
         >
           <i
-            :class="[item.icon, 'transition-opacity duration-300 text-lg', activeIndex === index ? 'opacity-0' : 'text-white/70']"
+            :class="[item.icon, 'transition-opacity duration-300 text-lg', props.activeIndex === index ? 'opacity-0' : 'text-white/70']"
           ></i>
         </li>
       </ul>
@@ -52,15 +52,12 @@
 </template>
 
 <script setup>
-import { toRefs } from 'vue'
 const props = defineProps({
   url: String,
   navItems: Array,
   activeIndex: Number,
 })
 const emit = defineEmits(['logout', 'gantiUrl'])
-
-const { url, navItems, activeIndex } = toRefs(props)
 
 function gantiUrl(name) {
   emit('gantiUrl', name)

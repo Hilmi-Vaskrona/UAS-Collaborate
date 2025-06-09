@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Pantai Bali",
+    "rating": 4.8,
+    "duration": "7 Hari",
+    "location": "Indonesia",
+    "description": "Nikmati keindahan alam tropis, pantai pasir putih, dan budaya Bali yang kaya.",
+    "includes": [
+      "Penginapan bintang 3–5",
+      "Transportasi lokal (mobil + sopir)",
+      "Pemandu wisata profesional",
+      "Wifi gratis di hotel",
+      "Makan 3 kali sehari"
+    ],
+    "price": 2500000,
+    "image": "https://www.megainsurance.co.id/po-content/uploads/wisata_pantai.jpg"
+  },
+  {
+    "name": "Tokyo",
+    "rating": 4.9,
+    "duration": "7 Hari",
+    "location": "Jepang",
+    "description": "Jelajahi kota futuristik Tokyo dengan sentuhan budaya tradisional Jepang.",
+    "includes": [
+      "Penginapan bintang 3–5",
+      "Transportasi lokal (mobil + sopir)",
+      "Pemandu wisata profesional",
+      "Wifi gratis di hotel",
+      "Makan 3 kali sehari"
+    ],
+    "price": 30000000,
+    "image": "https://media.cntraveler.com/photos/678166b8a51cc7c3458df25a/16:9/w_2580,c_limit/pexels-Aleksandar%20Pasaric-2506923.jpg"
+  },
+  {
+    "name": "Paris",
+    "rating": 5.0,
+    "duration": "7 Hari",
+    "location": "Prancis",
+    "description": "Kunjungi Menara Eiffel dan rasakan romantisme kota Paris yang menawan.",
+    "includes": [
+      "Penginapan bintang 3–5",
+      "Transportasi lokal (mobil + sopir)",
+      "Pemandu wisata profesional",
+      "Wifi gratis di hotel",
+      "Makan 3 kali sehari"
+    ],
+    "price": 35000000,
+    "image": "https://static.independent.co.uk/2025/04/25/13/42/iStock-1498516775.jpg"
+  },
+  {
+    "name": "Maldives",
+    "rating": 5.0,
+    "duration": "7 Hari",
+    "location": "Maladewa",
+    "description": "Surga tropis dengan resort di atas laut dan air sejernih kristal.",
+    "includes": [
+      "Penginapan bintang 3–5",
+      "Transportasi lokal (mobil + sopir)",
+      "Pemandu wisata profesional",
+      "Wifi gratis di hotel",
+      "Makan 3 kali sehari"
+    ],
+    "price": 50000000,
+    "image": "https://blog-cdn.turquoiseholidays.co.uk/wp-content/uploads/2018/05/IndianOcean-1.jpg"
+  },
+  {
+    "name": "Santorini",
+    "rating": 5.0,
+    "duration": "7 Hari",
+    "location": "Yunani",
+    "description": "Nikmati pemandangan matahari terbenam dan arsitektur biru-putih yang ikonik.",
+    "includes": [
+      "Penginapan bintang 3–5",
+      "Transportasi lokal (mobil + sopir)",
+      "Pemandu wisata profesional",
+      "Wifi gratis di hotel",
+      "Makan 3 kali sehari"
+    ],
+    "price": 40000000,
+    "image": "https://www.visitgreece.gr/images/1743x752/jpg/files/merakos_05_santorini-oia_1743x752.jpg"
+  },
+  {
+    "name": "Dubai",
+    "rating": 5.0,
+    "duration": "7 Hari",
+    "location": "Uni Emirat Arab",
+    "description": "Kota mewah dengan pencakar langit, mall terbesar, dan gurun pasir eksotis.",
+    "includes": [
+      "Penginapan bintang 3–5",
+      "Transportasi lokal (mobil + sopir)",
+      "Pemandu wisata profesional",
+      "Wifi gratis di hotel",
+      "Makan 3 kali sehari"
+    ],
+    "price": 25000000,
+    "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/03/9c/66.jpg"
+  },
+  {
+    "name": "Kairo",
+    "rating": 5.0,
+    "duration": "7 Hari",
+    "location": "Mesir",
+    "description": "Jelajahi piramida Giza, museum kuno, dan pesona Sungai Nil.",
+    "includes": [
+      "Penginapan bintang 3–5",
+      "Transportasi lokal (mobil + sopir)",
+      "Pemandu wisata profesional",
+      "Wifi gratis di hotel",
+      "Makan 3 kali sehari"
+    ],
+    "price": 25000000,
+    "image": "https://png.pngtree.com/thumb_back/fh260/background/20230331/pngtree-panorama-of-cairo-cityscape-taken-during-the-sunset-from-the-famous-photo-image_2176202.jpg"
+  },
+  {
+    "name": "Kanada",
+    "rating": 5.0,
+    "duration": "7 Hari",
+    "location": "Kanada",
+    "description": "Nikmati alam liar, danau tenang, serta kota modern seperti Toronto dan Vancouver.",
+    "includes": [
+      "Penginapan bintang 3–5",
+      "Transportasi lokal (mobil + sopir)",
+      "Pemandu wisata profesional",
+      "Wifi gratis di hotel",
+      "Makan 3 kali sehari"
+    ],
+    "price": 60000000,
+    "image": "https://kariyer-rehberi.mncdn.com/wp-content/uploads/2024/09/kanada_asgari_ucret.jpg"
+  },
+  {
+    "name": "Zermatt",
+    "rating": 5.0,
+    "duration": "7 Hari",
+    "location": "Swiss",
+    "description": "Pegunungan Alpen yang megah, cocok untuk ski dan liburan musim dingin.",
+    "includes": [
+      "Penginapan bintang 3–5",
+      "Transportasi lokal (mobil + sopir)",
+      "Pemandu wisata profesional",
+      "Wifi gratis di hotel",
+      "Makan 3 kali sehari"
+    ],
+    "price": 70000000,
+    "image": "https://asset.kompas.com/crops/mPkWH3KhzmV4LlPZz0gRoyw2WWQ=/0x0:739x493/1200x800/data/photo/2021/03/27/605f0b09f3471.jpg"
+  },
+  {
+    "name": "Norwegia",
+    "rating": 5.0,
+    "duration": "7 Hari",
+    "location": "Norwegia",
+    "description": "Temukan keindahan fjord, aurora borealis, dan budaya Nordik yang tenang.",
+    "includes": [
+      "Penginapan bintang 3–5",
+      "Transportasi lokal (mobil + sopir)",
+      "Pemandu wisata profesional",
+      "Wifi gratis di hotel",
+      "Makan 3 kali sehari"
+    ],
+    "price": 45000000,
+    "image": "https://mmc.tirto.id/image/otf/640x0/2023/03/02/kota-oslo_ratio-16x9.jpg"
+  }
+]

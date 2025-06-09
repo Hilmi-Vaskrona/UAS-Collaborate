@@ -5,6 +5,9 @@ import {
 import HomeView from '../views/HomeView.vue'
 import LoginView from '@/views/LoginView.vue'
 import RegisterView from '@/views/RegisterView.vue'
+import DetailKomponen from '@/components/DetailKomponen.vue'
+import PemesananKomponen from '@/components/PemesananKomponen.vue'
+import SuksesKomponen from '@/components/SuksesKomponen.vue'
 
 const router = createRouter({
   history: createWebHistory(
@@ -23,8 +26,22 @@ const router = createRouter({
       path: '/home',
       name: 'home',
       component: HomeView,
-    }
-
+    },
+    {
+      path: '/detail/:id',
+      name: 'detail',
+      component: DetailKomponen,
+    },
+    {
+      path: '/pemesanan',
+      name: 'pemesanan',
+      component: PemesananKomponen,
+    },
+    {
+      path: '/sukses',
+      name: 'sukses',
+      component: SuksesKomponen,
+    },
   ]
 })
 

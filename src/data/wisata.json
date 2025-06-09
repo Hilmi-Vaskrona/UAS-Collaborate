@@ -1,10 +1,11 @@
 [
   {
+    "id": 1,
     "name": "Pantai Bali",
     "rating": 4.8,
     "duration": "7 Hari",
     "location": "Indonesia",
-    "description": "Nikmati keindahan alam tropis, pantai pasir putih, dan budaya Bali yang kaya.",
+    "description": "Pantai Bali menawarkan pesona alam yang memukau dengan pasir putih halus, air laut jernih berwarna biru kehijauan, dan pemandangan matahari terbenam yang spektakuler. Selain keindahan alamnya, pantai-pantai di Bali seperti Kuta, Sanur, dan Nusa Dua juga terkenal dengan suasana yang hidup dan berbagai aktivitas seru seperti surfing, snorkeling, hingga menikmati kuliner lokal di warung-warung pinggir pantai. Keunikan budaya Bali yang kental terasa melalui upacara adat dan pura-pura yang mengelilingi kawasan pantai, menjadikan pengalaman berwisata di Bali tidak hanya menyenangkan tapi juga sarat makna spiritual.",
     "includes": [
       "Penginapan bintang 3–5",
       "Transportasi lokal (mobil + sopir)",
@@ -16,11 +17,12 @@
     "image": "https://www.megainsurance.co.id/po-content/uploads/wisata_pantai.jpg"
   },
   {
+    "id": 2,
     "name": "Tokyo",
     "rating": 4.9,
     "duration": "7 Hari",
     "location": "Jepang",
-    "description": "Jelajahi kota futuristik Tokyo dengan sentuhan budaya tradisional Jepang.",
+    "description": "Tokyo, Jepang, adalah kota metropolitan megah yang memadukan kemodernan dan tradisi dengan harmonis. Kota ini dikenal sebagai pusat teknologi canggih, mode terkini, dan kehidupan urban yang dinamis, dengan gedung pencakar langit, distrik perbelanjaan terkenal seperti Shibuya dan Ginza, serta hiburan malam yang semarak. Di sisi lain, Tokyo juga menyimpan warisan budaya yang kaya melalui kuil-kuil bersejarah, taman-taman indah seperti Shinjuku Gyoen, dan festival tradisional yang rutin digelar. Dengan sistem transportasi yang sangat efisien dan beragam pilihan kuliner mulai dari street food hingga restoran Michelin, Tokyo menawarkan pengalaman unik yang memikat setiap pengunjung..",
     "includes": [
       "Penginapan bintang 3–5",
       "Transportasi lokal (mobil + sopir)",
@@ -32,11 +34,12 @@
     "image": "https://media.cntraveler.com/photos/678166b8a51cc7c3458df25a/16:9/w_2580,c_limit/pexels-Aleksandar%20Pasaric-2506923.jpg"
   },
   {
+    "id": 3,
     "name": "Paris",
     "rating": 5.0,
     "duration": "7 Hari",
     "location": "Prancis",
-    "description": "Kunjungi Menara Eiffel dan rasakan romantisme kota Paris yang menawan.",
+    "description": "Paris, ibu kota Prancis, adalah kota romantis yang memukau dengan keindahan arsitektur klasik dan modern yang berpadu sempurna. Kota ini dikenal dengan ikon-ikon dunia seperti Menara Eiffel yang menjulang megah, Museum Louvre yang menyimpan karya seni berharga, serta katedral Notre-Dame yang penuh sejarah. Paris juga menawarkan suasana kafe yang khas, jalan-jalan berbatu yang menawan, dan taman-taman hijau yang asri seperti Jardin des Tuileries. Selain seni dan budaya, Paris adalah surga belanja dengan butik-butik mewah di Champs-Élysées dan beragam kuliner Prancis yang menggugah selera, menjadikan kota ini destinasi wisata yang tak terlupakan bagi siapa pun yang mengunjunginya.",
     "includes": [
       "Penginapan bintang 3–5",
       "Transportasi lokal (mobil + sopir)",
@@ -48,11 +51,12 @@
     "image": "https://static.independent.co.uk/2025/04/25/13/42/iStock-1498516775.jpg"
   },
   {
+    "id": 4,
     "name": "Maldives",
     "rating": 5.0,
     "duration": "7 Hari",
     "location": "Maladewa",
-    "description": "Surga tropis dengan resort di atas laut dan air sejernih kristal.",
+    "description": "Maldives adalah kepulauan eksotis di Samudra Hindia yang terkenal dengan keindahan alam bawah lautnya yang memukau, pasir putih lembut, dan air laut yang jernih berwarna turquoise. Destinasi ini adalah surga bagi pecinta snorkeling dan diving karena terumbu karang yang kaya dan beragam hayati laut yang menakjubkan. Maldives juga dikenal dengan resor-resor mewah yang menawarkan vila di atas air lengkap dengan fasilitas premium, suasana privat yang romantis, serta pemandangan matahari terbenam yang menakjubkan. Selain relaksasi di pantai, wisatawan dapat menikmati spa, olahraga air, dan kuliner internasional di tengah suasana tropis yang tenang dan eksklusif.",
     "includes": [
       "Penginapan bintang 3–5",
       "Transportasi lokal (mobil + sopir)",
@@ -64,11 +68,12 @@
     "image": "https://blog-cdn.turquoiseholidays.co.uk/wp-content/uploads/2018/05/IndianOcean-1.jpg"
   },
   {
-    "name": "Santorini",
+    "id": 5,
+    "name": "islandia",
     "rating": 5.0,
     "duration": "7 Hari",
-    "location": "Yunani",
-    "description": "Nikmati pemandangan matahari terbenam dan arsitektur biru-putih yang ikonik.",
+    "location": "islandia",
+    "description": "Islandia adalah pulau vulkanik yang terkenal dengan pemandangan alamnya yang luar biasa—gunung es yang membentang, air terjun spektakuler, ladang lava, geyser panas, dan tentu saja aurora borealis yang memukau saat malam tiba. Kamu bisa jelajah Golden Circle, rute populer yang mencakup Taman Nasional Þingvellir, air terjun Gullfoss, dan area geyser Strokkur yang meletus secara berkala. Selain itu, Blue Lagoon, kolam air panas alami, adalah tempat relaksasi ikonik dengan air biru susu yang hangat di tengah lanskap vulkanik. Islandia juga terkenal dengan suasana tenang, langit malam yang jernih, dan udara segar.",
     "includes": [
       "Penginapan bintang 3–5",
       "Transportasi lokal (mobil + sopir)",
@@ -77,14 +82,15 @@
       "Makan 3 kali sehari"
     ],
     "price": 40000000,
-    "image": "https://www.visitgreece.gr/images/1743x752/jpg/files/merakos_05_santorini-oia_1743x752.jpg"
+    "image": "https://cdn.rri.co.id/berita/Surakarta/o/1729737994497-islandia/94awjxso0o6vvg3.jpeg"
   },
   {
+    "id": 6,
     "name": "Dubai",
     "rating": 5.0,
     "duration": "7 Hari",
     "location": "Uni Emirat Arab",
-    "description": "Kota mewah dengan pencakar langit, mall terbesar, dan gurun pasir eksotis.",
+    "description": "Dubai adalah kota metropolitan futuristik di tengah gurun yang dikenal dengan arsitektur supermodern, kehidupan mewah, dan atraksi-atraksi unik kelas dunia. Ikon terkenalnya adalah Burj Khalifa, gedung tertinggi di dunia, dan Palm Jumeirah, pulau buatan berbentuk pohon palem yang megah. Dubai juga menawarkan pengalaman belanja mewah di Dubai Mall, wisata gurun dengan jeep safari, serta taman hiburan besar seperti Dubai Parks & Resorts. Meskipun modern, Dubai tetap menjaga tradisi Arab lewat pasar tradisional (souq), masjid megah, dan festival budaya. Kota ini memadukan kemewahan, teknologi, dan keunikan budaya Timur Tengah dalam satu paket luar biasa.",
     "includes": [
       "Penginapan bintang 3–5",
       "Transportasi lokal (mobil + sopir)",
@@ -96,11 +102,12 @@
     "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/03/9c/66.jpg"
   },
   {
+    "id": 7,
     "name": "Kairo",
     "rating": 5.0,
     "duration": "7 Hari",
     "location": "Mesir",
-    "description": "Jelajahi piramida Giza, museum kuno, dan pesona Sungai Nil.",
+    "description": "Kairo, ibu kota Mesir, adalah kota yang sarat sejarah dan penuh pesona dunia kuno. Di sini kamu bisa menyaksikan langsung keajaiban dunia seperti Piramida Giza, Sphinx, dan Museum Mesir yang menyimpan ribuan artefak zaman Firaun, termasuk mumi dan harta karun Tutankhamun. Kairo juga memiliki kota tua yang memukau dengan masjid-masjid kuno, pasar tradisional Khan El-Khalili, serta Sungai Nil yang membelah kota dengan tenang. Kota ini memadukan kehidupan modern dengan warisan sejarah ribuan tahun, menjadikannya surga bagi pecinta sejarah dan budaya Timur Tengah.",
     "includes": [
       "Penginapan bintang 3–5",
       "Transportasi lokal (mobil + sopir)",
@@ -112,11 +119,12 @@
     "image": "https://png.pngtree.com/thumb_back/fh260/background/20230331/pngtree-panorama-of-cairo-cityscape-taken-during-the-sunset-from-the-famous-photo-image_2176202.jpg"
   },
   {
+    "id": 8,
     "name": "Kanada",
     "rating": 5.0,
     "duration": "7 Hari",
     "location": "Kanada",
-    "description": "Nikmati alam liar, danau tenang, serta kota modern seperti Toronto dan Vancouver.",
+    "description": "Kanada adalah negara dengan alam yang luar biasa indah dan kota-kota yang tertata rapi, modern, dan multikultural. Di sini kamu bisa melihat danau sebening kaca seperti Lake Louise, air terjun spektakuler Niagara Falls, pegunungan Rockies yang tertutup salju, hingga aurora borealis di wilayah utara. Kota-kotanya seperti Toronto, Vancouver, dan Montreal penuh kehidupan, aman, dan ramah pendatang. Kanada juga terkenal dengan suasana damai, pemandangan alam yang dramatis, dan udara bersih yang menyegarkan. Sangat cocok untuk pecinta petualangan alam, salju, dan budaya barat yang tenang dan tertib.",
     "includes": [
       "Penginapan bintang 3–5",
       "Transportasi lokal (mobil + sopir)",
@@ -128,11 +136,12 @@
     "image": "https://kariyer-rehberi.mncdn.com/wp-content/uploads/2024/09/kanada_asgari_ucret.jpg"
   },
   {
+    "id": 9,
     "name": "Zermatt",
     "rating": 5.0,
     "duration": "7 Hari",
     "location": "Swiss",
-    "description": "Pegunungan Alpen yang megah, cocok untuk ski dan liburan musim dingin.",
+    "description": "Zermatt adalah desa pegunungan yang menawan di Swiss, terletak di kaki gunung ikonik Matterhorn, salah satu puncak paling terkenal di dunia. Desa ini bebas kendaraan bermotor, jadi udaranya bersih dan suasananya sangat tenang. Zermatt terkenal sebagai tempat ski kelas dunia di musim dingin, dan juga hiking serta pemandangan spektakuler di musim panas. Selain itu, kamu bisa naik kereta Gornergrat untuk menikmati panorama Pegunungan Alpen yang luar biasa indah, atau mencicipi cokelat dan keju Swiss otentik sambil santai di chalet khas pegunungan. Tempat ini benar-benar cocok buat pencinta alam, salju, dan pemandangan yang bikin speechless.",
     "includes": [
       "Penginapan bintang 3–5",
       "Transportasi lokal (mobil + sopir)",
@@ -144,11 +153,12 @@
     "image": "https://asset.kompas.com/crops/mPkWH3KhzmV4LlPZz0gRoyw2WWQ=/0x0:739x493/1200x800/data/photo/2021/03/27/605f0b09f3471.jpg"
   },
   {
+    "id": 10,
     "name": "Norwegia",
     "rating": 5.0,
     "duration": "7 Hari",
     "location": "Norwegia",
-    "description": "Temukan keindahan fjord, aurora borealis, dan budaya Nordik yang tenang.",
+    "description": "Norwegia adalah negara Skandinavia yang terkenal dengan alam luar biasa indah: fjord (teluk curam) yang dramatis, pegunungan tertutup salju, air terjun tinggi, dan aurora borealis di langit utara. Kota-kotanya seperti Oslo, Bergen, dan Tromsø modern tapi tetap menyatu dengan alam. Kamu bisa menjelajahi Geirangerfjord (UNESCO World Heritage), naik kapal pesiar di antara tebing, naik kereta api indah Flåm Railway, atau berburu aurora di Lingkar Arktik. Norwegia juga dikenal sangat bersih, aman, dan ramah terhadap turis, cocok untuk kamu yang suka ketenangan dan petualangan di alam liar yang belum banyak disentuh.",
     "includes": [
       "Penginapan bintang 3–5",
       "Transportasi lokal (mobil + sopir)",

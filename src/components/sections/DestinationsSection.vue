@@ -19,6 +19,7 @@
             v-for="(destination, idx) in firstRowDestinations"
             :key="idx"
             :destination="destination"
+            @click="goToDetail(destination.id)"
           />
         </div>
         
@@ -28,6 +29,7 @@
             v-for="(destination, idx) in secondRowDestinations"
             :key="idx"
             :destination="destination"
+            @click="goToDetail(destination.id)"
           />
         </div>
       </div>
@@ -37,11 +39,17 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
 import DestinationCard from '@/components/ui/DestinationCard.vue'
 import wisataData from '@/data/wisata.json'
 
 const firstRowDestinations = ref(wisataData.slice(0, 4))
 const secondRowDestinations = ref(wisataData.slice(4, 8))
+
+const router = useRouter()
+function goToDetail(id) {
+  router.push(`/detail/${id}`) // pastikan ada field id di data
+}
 </script>
 
 <style scoped>

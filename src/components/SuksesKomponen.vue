@@ -19,10 +19,10 @@
       </div>
 
       <div class="flex justify-center gap-4">
-        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
-          Lihat Detail Pemesanan
-        </button>
-        <button class="border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-50 transition">
+        <button
+          class="border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-50 transition"
+          @click="$router.push('/home')"
+        >
           Kembali ke Beranda
         </button>
       </div>

@@ -5,7 +5,9 @@
     
     <div class="absolute bottom-0 left-0 right-0 p-5 text-white">
       <h3 class="text-lg font-semibold mb-2 text-center">{{ destination.name }}</h3>
-      <p class="text-sm text-gray-200 text-center leading-relaxed">{{ destination.description }}</p>
+      <p class="text-sm text-gray-200 text-center leading-relaxed">
+        {{ destination.description.length > 30 ? destination.description.substr(0, 30) + '...' : destination.description }}
+      </p>
     </div>
     
     <button class="absolute top-4 right-4 w-9 h-9 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">

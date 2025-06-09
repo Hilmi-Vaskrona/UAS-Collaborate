@@ -87,6 +87,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router' // Tambahkan ini jika menggunakan vue-router
 
 const step = ref(1)
 
@@ -99,8 +100,12 @@ const form = ref({
   pembayaran: ''
 })
 
+const router = useRouter() // Inisialisasi router
+
 function handleSubmit() {
-  console.log('Form submitted:', form.value)
-  alert('Pemesanan berhasil disimpan!')
+  // Simpan data ke localStorage
+  localStorage.setItem('pemesananTravel', JSON.stringify(form.value))
+  // Redirect ke halaman sukses
+  router.push('/sukses')
 }
 </script>

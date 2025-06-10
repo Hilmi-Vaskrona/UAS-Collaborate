@@ -136,7 +136,7 @@
       style="background: linear-gradient(to bottom, transparent, #FFFBDE);"
     ></div>
 
-  <div class="h-[1000px] w-full bg-[#FFFBDE]">
+  <div class="h-full w-full bg-[#FFFBDE]">
     <DestinationsSection/>
     <TrustedPartnerSection/>
     <PerfectTripSection/>

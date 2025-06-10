@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
    <Navbar
   :url="url"
   :navItems="navItems"
@@ -34,4 +34,4 @@ const gantiUrl = (value) => {
 const logout = () => {
   localStorage.removeItem('loggedInUser')
 }
-</script>
+</script> -->
